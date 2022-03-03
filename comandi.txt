@@ -1,0 +1,16 @@
+    1  git 
+    2  git --help
+    3  git clone https://www.google.com/url?q=https://github.com/sena-meucci/progettoStampa.git&sa=D&source=editors&ust=1646298707873694&usg=AOvVaw0vMIIj7YOFYJ3rKn32zgbQ
+    4  git clone https://www.google.com/url?q=https://github.com/sena-meucci/progettoStampa.git
+    5  git clone https://github.com/sena-meucci/progettoStampa.git
+    6  cd progettoStampa/
+    7  git add -A
+    8  git commit -m "inserito nome"
+    9  git branch Bugfix
+   10  git checkout Bugfix 
+   11  git add -A
+   12  git commit -m "errore risolto in stampa"
+   13  git checkout master 
+   14  git merge Bugfix 
+   15  git branch -d Bugfix 
+   16  history 30 > comandi.txt
