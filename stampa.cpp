@@ -13,7 +13,8 @@ int main()
   cin>>n;
   while (i<n)
   {
-   cout<<"Bada come la fuma"<<endl; 
+   cout<<"Bada come la fuma"<<endl;
+   i++; 
   }
   system("pause");
 }
